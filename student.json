@@ -1,0 +1,17 @@
+[
+    {"Name": "Kendall Josef","Age": 20, "Grade": "College Freshman", "Major":"Computer Programming"},
+    {"Name": "Logan Schlemmer","Age": 24, "Grade": "College Junior", "Major":"Database"},
+    {"Name": "Dawson Stanfel","Age": 21, "Grade": "High-School Diploma", "Major":"Security"},
+    {"Name": "Joshua Dacanay","Age": 19, "Grade": "College Sophomore", "Major":"Linguistics Major"},
+    {"Name": "Isiah Pierce","Age": 23, "Grade": "College Senior", "Major":"Computer Engineering"},
+    {"Name": "Garrus Valkarian","Age": 25, "Grade": "College Senior", "Major":"Artificial Intelligence"},
+    {"Name": "Shepard Shepard","Age": 26, "Grade": "College Freshman", "Major":"Cybersecurity"},
+    {"Name": "Abbadon Nishant","Age": 20, "Grade": "College Sophomore", "Major":"Computer Programming"},
+    {"Name": "Yshtola Rhul","Age": 33, "Grade": "College Senior", "Major":"International Relations"},
+    {"Name": "Thancred Waters","Age": 32, "Grade":"College Junior", "Major":"Criminal Science"},
+    {"Name": "Graha Tia","Age": 28, "Grade": "College Junior", "Major":"History"},
+    {"Name": "Alisaie Leveilleur","Age": 17, "Grade": "College Freshman", "Major":"Biology"},
+    {"Name": "Alphinaud Leveilleur","Age": 16, "Grade": "College Freshman", "Major":"Diplomacy"},
+    {"Name": "Krile Baldesion","Age": 22, "Grade": "College Sophomore", "Major":"Graphic Design"},
+    {"Name": "Urianger Augurelt","Age": 29, "Grade": "College Senior", "Major":"Astronomy"}
+]
