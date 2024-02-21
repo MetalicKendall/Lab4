@@ -27,14 +27,23 @@
         });
     }
 
+    //was giving 12
+    // var length = Object.keys("student.json").length;
+    displayInfo();    
+    var ageTotal = 0;
+    function displayInfo(){
+    var length = 15;
 
-
-
-    fetchData(2)
+    for(i = 0; i < length; i++){
+   fetchData(i)
     .then(data =>{
         console.log("Data Fetched successfully:", data);
-        dataDisplay.innerHTML=`Name: ${data.Name}, Age: ${data.Age}, Grade Level: ${data.Grade}, Major: ${data.Major}`;
-
+        // displayInfo(student.json);
+        dataDisplay.innerHTML += "<ul>";
+        dataDisplay.innerHTML +=`<li>Name: ${data.Name}, Age: ${data.Age}, Grade Level: ${data.Grade}, Major: ${data.Major}</li>`;
+        dataDisplay.innerHTML += "</ul>";
+        // ageTotal+=data.Age;
+        // console.log(data.Age);
     })
     .catch(error =>{
         console.error("Error Fetching Data:", error);
@@ -43,4 +52,27 @@
     .finally(()=>{
         console.log("Fetched operation completed");
     })
+    }
+}
+function filterByCompSci(){
+    const filteredStudent = studentData.filter(Major => Major.Major == "Computer Science");
+    displayInfo(filteredStudent);
+    
+}
+ console.log(ageTotal);
+function averageAge(){
+   
+
+}
+
 })();
+
+// function displayInfo(student){
+//     dataDisplay.innerHTML = "<ul>";
+//     student.forEach(data =>{
+//         dataDisplay.innerHTML += `<li>Name: ${data.Name}, Age: ${data.Age}, Grade Level: ${data.Grade}, Major: ${data.Major}</li>`
+//     });
+//     dataDisplay.innerHTML = "</ul>";
+// }
+
+
